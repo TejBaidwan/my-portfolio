@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faReact, faPython, faNodeJs, faGithub, faApple, faAndroid, faPhp, faLaravel, 
