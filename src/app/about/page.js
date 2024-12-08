@@ -1,4 +1,5 @@
 "use client";
+import dynamic from 'next/dynamic';
 
 const AboutContent = dynamic(() => import('../components/aboutPage/AboutContent'), { 
   ssr: false

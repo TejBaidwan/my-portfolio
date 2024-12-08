@@ -1,4 +1,5 @@
 "use client";
+import dynamic from 'next/dynamic';
 
 const WorkContent = dynamic(() => import('../components/workPage/WorkContent'), { 
   ssr: false

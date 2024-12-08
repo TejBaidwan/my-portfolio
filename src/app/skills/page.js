@@ -1,4 +1,5 @@
 "use client";
+import dynamic from 'next/dynamic';
 
 const SkillsContent = dynamic(() => import('../components/skillsPage/skillsContent'), { 
   ssr: false
