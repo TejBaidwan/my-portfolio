@@ -2,6 +2,11 @@
 import ContactForm from "../components/contactPage/ContactForm";
 import NavigationTabBar from "../components/navigation/NavigationTabBar";
 import Footer from "../components/footer/footerContent";
+import dynamic from 'next/dynamic';
+
+const ContactPage = dynamic(() => import('../components/contactPage/ContactForm'), { 
+  ssr: false
+});
 
 //This is the ContactPage with the different components inserted
 

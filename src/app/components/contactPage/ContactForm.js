@@ -1,5 +1,6 @@
 "use client";
 import emailjs from 'emailjs-com';
+import dynamic from 'next/dynamic';
 
 const serviceID = 'service_ffvbkoj'
 const templateID = 'template_mf50bk2'
