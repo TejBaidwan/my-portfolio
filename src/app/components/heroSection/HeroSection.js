@@ -22,7 +22,7 @@ export default function Home() {
           {/* Header which uses the NPM React-Type-Animation for a typing effect */}
           <h1 className="text-5xl sm:text-4xl lg:text-7xl font-bold text-center lg:text-left">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#FF0000] to-[#840808]">
-              Hey, I'm{" "}
+              Hey, I am{" "}
             </span>
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#FF0000] to-[#840808]">Tej</span>
             <br />

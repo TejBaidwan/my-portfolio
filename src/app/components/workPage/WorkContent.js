@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import Image from 'next/image';
 
 /*
   This is the content found in the Works Page
@@ -26,9 +27,11 @@ export default function WorksPage() {
           transform transition-transform duration-200 hover:scale-110 hover:bg-[#434242]">
 
             <div className="absolute inset-0 flex items-center justify-center group-hover:opacity-0 transition-opacity duration-200">
-              <img
-                src="images/icons/arbitrageLogo.png"
+              <Image
+                src="/images/icons/arbitrageLogo.png"
                 alt="Arbitrage Tracker Project Logo"
+                width={300}
+                height={300}
                 className="max-h-full max-w-full object-contain opacity-100"
               />
             </div>
@@ -66,9 +69,11 @@ export default function WorksPage() {
           transform transition-transform duration-200 hover:scale-110 hover:bg-[#434242]">
 
             <div className="absolute inset-0 flex items-center justify-center group-hover:opacity-0 transition-opacity duration-200">
-              <img
-                src="images/icons/bloodDonationBuddyLogo.png"
+              <Image
+                src="/images/icons/bloodDonationBuddyLogo.png"
                 alt="BloodDonationBuddy logo"
+                width={300}
+                height={300}
                 className="max-h-full max-w-full object-contain opacity-100"
               />
             </div>

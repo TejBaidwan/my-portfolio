@@ -10,7 +10,7 @@ const AboutPage = () => {
       <div className="py-14 lg:px-24">
         <h1 className="text-5xl font-bold text-center">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#FF0000] to-[#840808]">
-            Hey, I'm Tej!
+            Hey, I am Tej!
           </span>
         </h1>
 
@@ -32,13 +32,13 @@ const AboutPage = () => {
           <div className="w-full lg:w-3/5 text-left">
             <h2 className="text-4xl font-bold">Welcome to my Portfolio!</h2>
             <p className="text-lg">
-              I'm a passionate mobile app developer who enjoys creating intuitive and
+              I am a passionate mobile app developer who enjoys creating intuitive and
               user-friendly apps. With a strong background in full-stack development,
               I enjoy using frameworks like React to create visually appeasing websites!
             </p>
             <h2 className="text-4xl font-bold mt-8">Education</h2>
             <p className="text-lg">
-              I'm currently pursuing an advanced diploma in Mobile Application Development @ St.
+              I am currently pursuing an advanced diploma in Mobile Application Development @ St.
               Clair College. I have learned a lot about full-stack web and mobile development and I can create nice cross-platform apps
             </p>
             <h2 className="text-4xl font-bold mt-8">Learn a bit About Me</h2>

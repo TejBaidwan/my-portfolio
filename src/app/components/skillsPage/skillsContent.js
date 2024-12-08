@@ -15,7 +15,7 @@ export default function SkillsPage() {
       {/* SHeader of the page */}
       <div className="text-center mb-10">
         <h2 className="text-5xl font-bold text-transparent bg-gradient-to-r from-[#FF0000] to-[#840808] bg-clip-text">
-          Skills I've Acquired & My Proficiency
+          Skills I have Acquired & My Proficiency
         </h2>
       </div>
 

@@ -36,10 +36,12 @@ const NavigationTabBar = () => {
   {/* Hamburger Icon fused for smaller screens (mobile), which toggles the open/closed boolean, and is hidden originally */}
   <div className="block md:hidden">
     <button onClick={toggleMenu} className="text-white">
-      <img 
+      <Image 
         src="/images/icons/hamburgerIcon.png" 
         alt="Menu Options" 
-        className="w-16 h-16 transition-transform duration-200 transform hover:scale-125" 
+        width={16}
+        height={16}
+        className=" transition-transform duration-200 transform hover:scale-125" 
       />
     </button>
   </div>
