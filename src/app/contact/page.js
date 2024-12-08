@@ -1,10 +1,9 @@
 "use client";
-import ContactForm from "../components/contactPage/ContactForm";
 import NavigationTabBar from "../components/navigation/NavigationTabBar";
 import Footer from "../components/footer/footerContent";
 import dynamic from 'next/dynamic';
 
-const ContactPage = dynamic(() => import('../components/contactPage/ContactForm'), { 
+const ContactForm = dynamic(() => import('../components/contactPage/ContactForm'), { 
   ssr: false
 });
 
