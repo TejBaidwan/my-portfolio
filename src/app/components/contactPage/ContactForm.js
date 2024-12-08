@@ -1,10 +1,11 @@
 "use client";
-import emailjs from 'emailjs-com';
 import dynamic from 'next/dynamic';
 
 const serviceID = 'service_ffvbkoj'
 const templateID = 'template_mf50bk2'
 const userID = 'nXq4eAEjVWgXza3b0'
+
+const emailjs = dynamic(() => import('emailjs-com'), { ssr: false });
 
 /*
   This is the content found in the Contact Page
@@ -63,7 +64,7 @@ const ContactPage = () => {
           Email
         </label>
         <input
-          type="sender_email"
+          type="email"
           id="email"
           name="email"
           className="w-full p-2 rounded-md bg-[#000000] border border-gray-600 focus:ring-4 transition duration-200"

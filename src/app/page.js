@@ -1,3 +1,4 @@
+"use client"
 import React from 'react';
 import NavigationTabBar from './components/navigation/NavigationTabBar';
 import HeroSection from './components/heroSection/HeroSection';

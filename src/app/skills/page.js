@@ -1,15 +1,7 @@
 "use client";
-import dynamic from 'next/dynamic';
-
-const SkillsContent = dynamic(() => import('../components/skillsPage/skillsContent'), { 
-  ssr: false
-});
-const Footer = dynamic(() => import('../components/footer/footerContent'), { 
-  ssr: false
-});
-const NavigationTabBar = dynamic(() => import('../components/navigation/NavigationTabBar'), { 
-  ssr: false
-});
+import SkillsContent from "../components/skillsPage/skillsContent";
+import NavigationTabBar from "../components/navigation/NavigationTabBar";
+import Footer from "../components/footer/footerContent";
 
 //This is the SkillsPage with the different components inserted
 
