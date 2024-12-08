@@ -1,7 +1,14 @@
 "use client";
-import WorkContent from "../components/workPage/WorkContent";
-import NavigationTabBar from "../components/navigation/NavigationTabBar";
-import Footer from "../components/footer/footerContent";
+
+const WorkContent = dynamic(() => import('../components/workPage/WorkContent'), { 
+  ssr: false
+});
+const Footer = dynamic(() => import('../components/footer/footerContent'), { 
+  ssr: false
+});
+const NavigationTabBar = dynamic(() => import('../components/navigation/NavigationTabBar'), { 
+  ssr: false
+});
 
 //This is the WorkPage with the different components inserted
 

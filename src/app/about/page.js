@@ -1,7 +1,14 @@
 "use client";
-import AboutContent from "../components/aboutPage/AboutContent";
-import NavigationTabBar from "../components/navigation/NavigationTabBar";
-import Footer from "../components/footer/footerContent";
+
+const AboutContent = dynamic(() => import('../components/aboutPage/AboutContent'), { 
+  ssr: false
+});
+const Footer = dynamic(() => import('../components/footer/footerContent'), { 
+  ssr: false
+});
+const NavigationTabBar = dynamic(() => import('../components/navigation/NavigationTabBar'), { 
+  ssr: false
+});
 
 //This is the AboutPage with the different components inserted
 
